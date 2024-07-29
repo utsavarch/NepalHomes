@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/tailwind.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Home Page | Nepal Homes</title>
+  </head>
+  <body class="bg-[#eef3f9]">
+    <header
+      class="bg-white flex pl-[100px;] py-[20px;] fixed top-0 w-[100%] z-50"
+    >
+      <div class="w-[60%]" id="logo">
+        <img src="./assets/icon/logo.b90ba8bc.svg" />
+      </div>
+      <div class="mx-5">
+        <span class="align-middle mx-2 hover:text-blue-400 cursor-pointer"
+          >Properties</span
+        >
+        <span class="align-middle mx-2 hover:text-blue-400 cursor-pointer"
+          >Auction</span
+        >
+        <span class="align-middle mx-2 hover:text-blue-400 cursor-pointer"
+          >News</span
+        >
+        <span class="align-middle mx-2 hover:text-blue-400 cursor-pointer"
+          >Agencies</span
+        >
+        <span class="align-middle mx-2 hover:text-blue-400 cursor-pointer"
+          >Tools</span
+        >
+
+        <button
+          class="mt-[5px] bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+        >
+          Login
+        </button>
+      </div>
+    </header>
+    <div class="h-[74vh] mt-[85px;]" id="hero"></div>
+    <div class="px-[100px] mt-[30px]">
+      <h4 class="font-bold text-[20px]">Popular Categories</h4>
+    </div>
+    <div class="flex mt-[10px;] px-[100px] gap-5">
+      <div class="bg-white h-[220px] rounded-[10px] text-center" id="card">
+        <div
+          class="p-2 bg-[#0e5dae14] w-[80px] rounded-[100%] ml-[30%] mt-[20%]"
+        >
+          <img src="./assets/icon/B6EFCBC074C7AE0-home.webp" class="w-[70px]" />
+        </div>
+        <div class="mt-[20px]"><span>House</span><br /></div>
+        <div class="mt-[20px]">
+          <span class="text-blue-400 text-[14px]">3681</span>
+        </div>
+      </div>
+      <div class="bg-white h-[220px] rounded-[10px] text-center" id="card">
+        <div
+          class="p-2 bg-[#a046ec14] w-[80px] rounded-[100%] ml-[30%] mt-[20%]"
+        >
+          <img src="./assets/icon/E274C43C8AA9CB3-land.webp" class="w-[70px]" />
+        </div>
+        <div class="mt-[20px]"><span>Land</span><br /></div>
+        <div class="mt-[20px]">
+          <span class="text-blue-400 text-[14px]">1717</span>
+        </div>
+      </div>
+      <div class="bg-white h-[220px] rounded-[10px] text-center" id="card">
+        <div
+          class="p-2 bg-[#00cfff14] w-[80px] rounded-[100%] ml-[30%] mt-[20%]"
+        >
+          <img src="./assets/icon/E0C9CF58A0120C5-flat.webp" class="w-[70px]" />
+        </div>
+        <div class="mt-[20px]"><span>Flats</span><br /></div>
+        <div class="mt-[20px]">
+          <span class="text-blue-400 text-[14px]">103</span>
+        </div>
+      </div>
+      <div class="bg-white h-[220px] rounded-[10px] text-center" id="card">
+        <div
+          class="p-2 bg-[#ffe3002b] w-[80px] rounded-[100%] ml-[30%] mt-[20%]"
+        >
+          <img
+            src="./assets/icon/A205781608B5D5D-office.webp"
+            class="w-[70px]"
+          />
+        </div>
+        <div class="mt-[20px]"><span>Office Space</span><br /></div>
+        <div class="mt-[20px]">
+          <span class="text-blue-400 text-[14px]">170</span>
+        </div>
+      </div>
+      <div class="bg-white h-[220px] rounded-[10px] text-center" id="card">
+        <div
+          class="p-2 bg-[#86f05624] w-[80px] rounded-[100%] ml-[30%] mt-[20%]"
+        >
+          <img src="./assets/icon/D7E2E7E2290AC61-shop.webp" class="w-[70px]" />
+        </div>
+        <div class="mt-[20px]"><span>Shop Space</span><br /></div>
+        <div class="mt-[20px]">
+          <span class="text-blue-400 text-[14px]">29</span>
+        </div>
+      </div>
+      <div class="bg-white h-[220px] rounded-[10px] text-center" id="card">
+        <div
+          class="p-2 bg-[#00cfff14] w-[80px] rounded-[100%] ml-[30%] mt-[20%]"
+        >
+          <img
+            src="./assets/icon/DFC0E5FA3250C87-apartment-o.webp"
+            class="w-[70px]"
+          />
+        </div>
+        <div class="mt-[20px]"><span>Appartment</span><br /></div>
+        <div class="mt-[20px]">
+          <span class="text-blue-400 text-[14px]">323</span>
+        </div>
+      </div>
+    </div>
+    <div class="mt-[50px] h-[80vh] px-[100px]" id="project">
+      <div class="pt-[50px]">
+        <h4 class="font-bold text-[20px]">Featured Projects</h4>
+      </div>
+      <div class="flex w-[100%] mt-[40px] gap-5">
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-[50px] h-[80vh] px-[100px] bg-white pb-[50px]">
+      <div class="pt-[50px]">
+        <h4 class="font-bold text-[30px] text-[#505781]">Premium Properties</h4>
+      </div>
+      <div class="flex w-[100%] mt-[40px] gap-5">
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="h-[80vh] px-[100px] bg-white pb-[50px]">
+      <div class="pt-[50px]">
+        <h4 class="font-bold text-[30px] text-[#505781]">
+          Featured Properties
+        </h4>
+      </div>
+      <div class="flex w-[100%] mt-[40px] gap-5">
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+        >
+          <div class="m-0 p-0">
+            <img
+              src="./assets/img/A0D45BBC317118F-Dhapakhel.webp"
+              class="rounded-t-[10px]"
+            />
+          </div>
+          <div class="px-3 mt-[10px]">
+            <span class="text-blue-900 text-[14px] font-bold"
+              >Housing & Appartment</span
+            >
+            <br />
+            <div class="mt-[10px]">
+              <span class="text-[18px] font-semibold">Downtown Residency</span>
+            </div>
+            <div class="mt-[5px] flex gap-[5px]">
+              <img
+                src="./assets/icon/map-pin.svg"
+                class="h-5 w-5 opacity-50"
+              /><span class="text-[12px] text-[gray]">
+                Dhapakhel Lalitpur Metropolitan Cit.....</span
+              >
+            </div>
+            <div
+              class="inline-block mt-[10px] rounded-[20px] bg-[#eaeaea] px-5"
+            >
+              <span class="text-[14px] text-[gray]">6 Properties</span>
+            </div>
+          </div>
+          <div class="mt-[50px]">
+            <hr class="mx-[20px]" />
+          </div>
+          <div class="px-3 flex gap-5">
+            <div
+              class="mt-[10px] px-[5px] inline-block rounded-[100%] bg-[#eef5fe]"
+            >
+              <p>D</p>
+            </div>
+            <div class="mt-[10px]"><span>Downtown Housing</span></div>
+            <div class="mt-[10px] cursor-pointer">
+              <span class="text-[#3497df]">View Details</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
