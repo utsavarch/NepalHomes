@@ -727,14 +727,13 @@ video {
   margin: 0px;
 }
 
+.m-\[auto\] {
+  margin: auto;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
 }
 
 .mx-\[20px\] {
@@ -784,6 +783,22 @@ video {
 
 .mt-\[85px\;\] {
   margin-top: 85px;;
+}
+
+.mt-\[100px\;\] {
+  margin-top: 100px;;
+}
+
+.mt-\[150px\;\] {
+  margin-top: 150px;;
+}
+
+.mt-\[120px\;\] {
+  margin-top: 120px;;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
 }
 
 .box-border {
@@ -897,8 +912,12 @@ video {
   height: 74vh;
 }
 
-.h-\[80vh\] {
-  height: 80vh;
+.h-\[75vh\] {
+  height: 75vh;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-5 {
@@ -907,10 +926,6 @@ video {
 
 .w-\[100\%\] {
   width: 100%;
-}
-
-.w-\[25\%\] {
-  width: 25%;
 }
 
 .w-\[60\%\] {
@@ -935,6 +950,26 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-\[50vh\] {
+  width: 50vh;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
+}
+
+.w-\[auto\] {
+  width: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .flex-shrink {
@@ -1465,6 +1500,10 @@ video {
 
 .gap-\[5px\] {
   gap: 5px;
+}
+
+.gap-y-5 {
+  row-gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2150,20 +2189,12 @@ video {
   padding-bottom: 20px;
 }
 
-.pl-\[100px\;\] {
-  padding-left: 100px;;
+.pb-\[50px\] {
+  padding-bottom: 50px;
 }
 
 .pt-\[50px\] {
   padding-top: 50px;
-}
-
-.pb-\[\] {
-  padding-bottom: ;
-}
-
-.pb-\[50px\] {
-  padding-bottom: 50px;
 }
 
 .text-left {
@@ -2238,16 +2269,8 @@ video {
   font-size: 20px;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
-}
-
 .text-\[30px\] {
   font-size: 30px;
-}
-
-.text-\[35px\] {
-  font-size: 35px;
 }
 
 .font-bold {
@@ -2818,6 +2841,56 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .sm\:mt-\[85px\;\] {
+    margin-top: 85px;;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:h-\[80vh\] {
+    height: 80vh;
+  }
+
+  .sm\:h-\[74vh\] {
+    height: 74vh;
+  }
+
+  .sm\:h-\[vh\] {
+    height: vh;
+  }
+
+  .sm\:h-\[75vh\] {
+    height: 75vh;
+  }
+
+  .sm\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .sm\:w-\[100vw\] {
+    width: 100vw;
+  }
+
+  .sm\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .sm\:px-\[100px\] {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .sm\:pl-\[100px\;\] {
+    padding-left: 100px;;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }

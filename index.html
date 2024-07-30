@@ -9,12 +9,12 @@
   </head>
   <body class="bg-[#eef3f9]">
     <header
-      class="bg-white flex pl-[100px;] py-[20px;] fixed top-0 w-[100%] z-50"
+      class="bg-white text-center sm:flex sm:pl-[100px;] py-[20px;] fixed top-0 w-[100%] z-50"
     >
-      <div class="w-[60%]" id="logo">
+      <div class="w-[60%] m-[auto]" id="logo">
         <img src="./assets/icon/logo.b90ba8bc.svg" />
       </div>
-      <div class="mx-5">
+      <div class="sm:mx-5">
         <span class="align-middle mx-2 hover:text-blue-400 cursor-pointer"
           >Properties</span
         >
@@ -38,11 +38,13 @@
         </button>
       </div>
     </header>
-    <div class="h-[74vh] mt-[85px;]" id="hero"></div>
+    <div class="h-full w-full mt-[120px;] sm:mt-[85px;]" id="hero">
+      <img src="./assets/img/hero.webp" class="w-full" />
+    </div>
     <div class="px-[100px] mt-[30px]">
       <h4 class="font-bold text-[20px]">Popular Categories</h4>
     </div>
-    <div class="flex mt-[10px;] px-[100px] gap-5">
+    <div class="flex flex-wrap justify-center mt-[10px;] sm:px-[100px] gap-5">
       <div class="bg-white h-[220px] rounded-[10px] text-center" id="card">
         <div
           class="p-2 bg-[#0e5dae14] w-[80px] rounded-[100%] ml-[30%] mt-[20%]"
@@ -116,13 +118,13 @@
         </div>
       </div>
     </div>
-    <div class="mt-[50px] h-[80vh] px-[100px]" id="project">
+    <div class="mt-[50px] sm:h-[80vh] px-[100px]" id="project">
       <div class="pt-[50px]">
         <h4 class="font-bold text-[20px]">Featured Projects</h4>
       </div>
-      <div class="flex w-[100%] mt-[40px] gap-5">
+      <div class="block sm:flex w-[100%] mt-[40px] sm:gap-5">
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -168,7 +170,7 @@
           </div>
         </div>
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -214,7 +216,7 @@
           </div>
         </div>
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -260,7 +262,7 @@
           </div>
         </div>
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -307,13 +309,13 @@
         </div>
       </div>
     </div>
-    <div class="mt-[50px] h-[80vh] px-[100px] bg-white pb-[50px]">
+    <div class="mt-[50px] sm:h-[80vh] px-[100px] bg-white pb-[50px]">
       <div class="pt-[50px]">
         <h4 class="font-bold text-[30px] text-[#505781]">Premium Properties</h4>
       </div>
-      <div class="flex w-[100%] mt-[40px] gap-5">
+      <div class="block sm:flex w-[100%] mt-[40px] gap-5">
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -359,7 +361,7 @@
           </div>
         </div>
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -405,7 +407,7 @@
           </div>
         </div>
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -451,7 +453,7 @@
           </div>
         </div>
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -498,15 +500,15 @@
         </div>
       </div>
     </div>
-    <div class="h-[80vh] px-[100px] bg-white pb-[50px]">
+    <div class="sm:h-[80vh] px-[100px] bg-white pb-[50px]">
       <div class="pt-[50px]">
         <h4 class="font-bold text-[30px] text-[#505781]">
           Featured Properties
         </h4>
       </div>
-      <div class="flex w-[100%] mt-[40px] gap-5">
+      <div class="block sm:flex w-[100%] mt-[40px] sm:gap-5">
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -552,7 +554,7 @@
           </div>
         </div>
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -598,7 +600,7 @@
           </div>
         </div>
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
@@ -644,7 +646,7 @@
           </div>
         </div>
         <div
-          class="w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
+          class="mb-[20px] sm:w-[25%] bg-white pb-[20px] rounded-[10px] border border-gray-100"
         >
           <div class="m-0 p-0">
             <img
